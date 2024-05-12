@@ -27,3 +27,18 @@ Clone this repository to your local machine using Git:
 ```bash
 git clone https://github.com/dreamVaux/my_bootcamp_tasks.git
 ```
+
+### Usage
+
+To run the script, navigate to the directory where the script is located, and execute it from the terminal:
+```bash
+./file_cd.sh
+```
+
+### Contributing
+
+Contributions to this project are welcome! Please fork the repository and submit a pull request with your enhancements.
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
