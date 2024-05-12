@@ -21,4 +21,4 @@ Ensure you have a Windows operating system to run the batch script as intended.
 
 1. Clone this repository to your local machine using Git:
    ```bash
-   git clone https://github.com/dreamVaux/folder-structure-creator.git
+   git clone https://github.com/dreamVaux/my_bootcamp_tasks.git
