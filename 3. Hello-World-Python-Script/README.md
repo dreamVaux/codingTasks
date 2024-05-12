@@ -20,7 +20,7 @@ To run this script, you will need:
 
 1. Clone this repository to your local machine using Git:
    ```bash
-   git clone https://github.com/yourusername/hello-world-python.git
+   git clone git clone https://github.com/dreamVaux/my_bootcamp_tasks.git
    ```
 
 2. Navigate to the cloned directory
