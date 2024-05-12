@@ -19,9 +19,11 @@ Ensure you have a macOS operating system to run the shell script as intended. Yo
 
 ```bash
 chmod +x file_cd.sh
+```
 
 ### Installation
 
 Clone this repository to your local machine using Git:
 ```bash
 git clone https://github.com/dreamVaux/my_bootcamp_tasks.git
+```
