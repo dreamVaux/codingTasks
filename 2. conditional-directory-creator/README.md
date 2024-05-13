@@ -19,7 +19,6 @@ Ensure you are using a macOS or other Unix-like operating system to run the shel
 chmod +x ifExample.sh
 ```
 
-
 ### Installation
 
 Clone this repository to your local machine using Git:
