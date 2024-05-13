@@ -42,10 +42,10 @@ Follow the on-screen prompts to enter the times for swimming, cycling, and runni
 
 The awards are determined based on the total time taken to complete the triathlon:
 
-Provincial colours: 0–100 minutes
-Provincial half colours: 101–105 minutes
-Provincial scroll: 106–110 minutes
-No award: 111+ minutes
+- Provincial colours: 0–100 minutes
+- Provincial half colours: 101–105 minutes
+- Provincial scroll: 106–110 minutes
+- No award: 111+ minutes
 
 ### Contributing
 
