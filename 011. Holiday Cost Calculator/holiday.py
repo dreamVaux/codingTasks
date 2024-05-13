@@ -1,8 +1,6 @@
 # This program will calculate a user’s total holiday cost,
 # which includes the plane cost, hotel cost, and car-rental cost.
 
-
-
 # Ask the user which city they will be flying to.
 city_flight = input("Which city will you be flying to?(Tokyo/New York/London)")
 while city_flight not in ["Tokyo", "New York", "London"]:
@@ -10,7 +8,6 @@ while city_flight not in ["Tokyo", "New York", "London"]:
     city_flight = input(
         "Which city will you be flying to?(Tokyo/New York/London)"
         )
-
 
 
 # Ask the user the number of nights they will be staying at a hotel.
@@ -27,7 +24,6 @@ while True:
         print("That's not a valid number. Please enter a valid integer number.")
 
 
-
 # Ask the user the number of days for which they will be hiring a car.
 while True:
     try:
@@ -40,7 +36,6 @@ while True:
         break
     except ValueError:
         print("That's not a valid number. Please enter a valid integer number.")
-
 
 
 # Define function to calculate the flight cost.
@@ -56,7 +51,6 @@ def plane_cost():
     elif city_flight == "London":
         planeCost = 650
     return planeCost
-
 
 
 # Define function to calculate the hotel cost.
@@ -76,7 +70,6 @@ def hotel_cost():
     return hotelCost
 
 
-
 # Define function to calculate the car rental.
 def car_rental():
     """
@@ -94,7 +87,6 @@ def car_rental():
     return carRental
 
 
-
 # Define function to calculate the total holiday cost.
 def holiday_cost():
     """
@@ -105,7 +97,6 @@ def holiday_cost():
     """
     holidayCost = hotel_cost() + plane_cost() + car_rental()
     return holidayCost
-
 
 
 # Call these functions in advence to make hotelCostPerNight
@@ -119,16 +110,13 @@ print(
     f"Your destination is {city_flight}. Your flight cost is ${plane_cost()}."
     )
 
-
 # Show the user the hotel cost.
 print(
     f"Your hotel cost is {num_nights} * ${hotelCostPerNight} = ${hotel_cost()}."
     )
 
-
 # Show the user the car rental.
 print(f"Your car rental is {rental_days} * ${rentalPerDay} = ${car_rental()}.")
-
 
 # Show the user the total holiday cost.
 print(f"Overall, your holiday cost is = ${holiday_cost()}")
