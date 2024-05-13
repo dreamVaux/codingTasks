@@ -35,8 +35,6 @@ or
 python3 alternative.py
 ```
 
-Follow the on-screen prompts to input a string for transformation. The script will display both transformations.
-
 ### Contributing
 Contributions to enhance the functionality of this script or improve its efficiency are welcome! Please fork the repository and submit a pull request with your enhancements.
 
